@@ -1,0 +1,21 @@
+# SGP TP3 - Timothée Haudebourg et Joan Thibault
+
+# Compilation
+Lancer la commande
+
+	$ make
+	
+Un programme matmult est généré dans le dossier bin.
+
+# Lancer le programme
+Se placer dans le dossier bin et lancer :
+
+	$ ./matmult [taille des matrices] [nombre de threads]
+	
+# Nettoyer la compilation
+
+	$ make clean
+	
+Pour supprimer l'éxécutable généré :
+
+	$ make mrproper
